@@ -63,7 +63,7 @@ h1 {
     color: #F9FAF8;
 }
 
-p {
+.p-header {
     font-size: 18px;
     color: #E5E7EB;
     padding-top: 30px;
@@ -77,8 +77,8 @@ button {
 }
 
 h2 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -101,6 +101,7 @@ h2 {
     height: 150px;
     border: 5px solid #3882F6;
     border-radius: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -113,4 +114,36 @@ h2 {
     text-align: center;
     width: 150px;
     color: #1F2937;
+}
+
+.text-section {
+    height: 300px;
+    width: auto;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.text {
+    width: 1000px;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.p-author {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 40px;
 }
