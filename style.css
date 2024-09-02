@@ -74,6 +74,9 @@ button {
     color: #ffffff;
     margin-top: 30px;
     padding: 10px;
+    border-color: white;
+    border-radius: 15px;
+    border-color: white;
 }
 
 h2 {
@@ -146,4 +149,37 @@ h2 {
     font-weight: bold;
     align-self: flex-end;
     margin-right: 40px;
+}
+
+.cta-container {
+    background-color: #F9FAF8;
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.cta-div {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.h3-cta {
+    color: white;
+}
+
+.p-cta {
+    color: white;
+}
+
+.cta-button {
+    border-color: white;
+    border-radius: 15px;
+    border-color: white;
 }
